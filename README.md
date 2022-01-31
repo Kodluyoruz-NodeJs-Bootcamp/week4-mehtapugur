@@ -9,7 +9,8 @@ A website where registered users can log in. In this application, registration a
 - [TypeScript](https://www.typescriptlang.org/)
 - [NodeJS](https://nodejs.org/en/)
 - [Express.js](https://expressjs.com/)
-- [MongoDB](https://www.mongodb.com/)
+- [MySQL](https://www.mysql.com/)
+- [TypeORM](https://typeorm.io/#/)
 
 JWT, Session, Cookie were used for validation.<br/>
 CSS and Bootstrap were used for styling.
@@ -41,23 +42,11 @@ CSS and Bootstrap were used for styling.
  - Users are listed on the Home page.
  - The session is terminated when the user logs out. <br/><br/>
 
-| Mongo Users | Mongo Session | 
-| --- | --- |
-| <img src="https://user-images.githubusercontent.com/24686636/149600983-83b3f4c7-1eab-4721-91ed-7ab715a4b72c.png"> | <img src="https://user-images.githubusercontent.com/24686636/149600686-75539306-bd10-4dc2-9b2a-e932d24c560a.png"> |
-
- - User information and session information are stored in the database.
- - Users' passwords are encrypted before being saved in the database. <br/><br/>
-
 | Token | 
 | --- |
 | <img src="https://user-images.githubusercontent.com/24686636/149600789-13cb185a-b7b9-4bff-8669-50466c89c993.png"> |
 
  - The token value is as you see it. <br/><br/>
-
-## :computer: Setup
-  
-  - To run the project, Git must be installed on your computer (or you can download zip file). You must install MongoDB on your computer. After completing this installation, we open the git terminal. We write the following expression `git clone https://github.com/Kodluyoruz-NodeJs-Bootcamp/week2-mehtapugur` and press the enter button. After opening the downloaded project in the code editor, we write this command `npm install` on the command line. And after that we write `npm start`. Then open `http://localhost:3000/` on your browser<br/><br/>
- 
 
 ## :memo: License
 This project is under the terms of the MIT license.
