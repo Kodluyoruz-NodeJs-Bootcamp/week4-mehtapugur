@@ -4,6 +4,7 @@ import session from "express-session";
 import cookieParser from "cookie-parser";
 import bodyParser from "body-parser";
 import { createConnection } from "typeorm";
+import { User } from "./entity/user.entity";
 //import MongoStore from "connect-mongo"; //?
 import path from "path";
 import authRoute from "./routes/authRoute";
@@ -60,9 +61,9 @@ createConnection({
   username: "root",
   password: "root",
   database: "node_auth",
-  entities: ["./entity/*.ts"],
-  logging: false,
+  entities: [User],
   synchronize: true,
+  logging: false,
 });
 
 app.use(
